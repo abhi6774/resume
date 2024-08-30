@@ -290,13 +290,43 @@
         .cert-date {
             color: #666;
         }
+
+        .self-info p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .self-info a {
+            display: inline-block;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .self-info a:hover {
+            transform: scale(1.1);
+        }
+
+        .self-info img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <section class="self-info">
             <h1>Abhishek Mourya | Full Stack Developer</h1>
-            <p>Pithampur, Madhya Pradesh | +91-9039515936 | abhishekmouyra6774@gmail.com</p>
+            <p>
+                Pithampur, Madhya Pradesh | +91-9039515936 | abhishekmouyra6774@gmail.com
+                <a href="https://github.com/abhi6774" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/abhishek6774" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="LinkedIn">
+                </a>
+            </p>
         </section>
         <section class="skills">
             <p><span>Skills:</span> Linux Administration, Node.js, Angular, React, Google Cloud, Flutter, Express.js, Git, SQL</p>
